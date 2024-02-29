@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <title>TEST</title>
+</head>
+<body>
+
+    <header>
+        <h2 class="myLibrary">myLibrary</h2>
+    <nav class="navigation">
+        <a href="page2.html">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <button class="btnLogin-popup">Login</button>
+    </nav>
+    </header>
+
+    <div id="wrap" class="wrapper">
+        <div class="form-box Search">
+            <h2>Search Book</h2>
+            <div id="error"></div>
+            <form id="myForm" class="form">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="library"></ion-icon></span>
+                    <input type="text" id="bookTitle" name="title" required>
+                    <label>Book Title</label>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input name="author" id="author" type="text" required> 
+                        <label>Book Author</label>
+                        <div class="input-box">
+                            <span class="icon"><ion-icon name="document"></ion-icon></span>
+                            <input type="text" id="bookPages" name="pages" required>
+                            <label>Book Pages</label>
+                            <div class="input-box">
+                                <span class="icon"><ion-icon name="book"></ion-icon></span>
+                                <input type="text" id="read" name="read" required>
+                                <label>Read or Not</label>
+                                
+                </div>
+               
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
